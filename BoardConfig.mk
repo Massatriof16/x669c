@@ -9,6 +9,7 @@ DEVICE_PATH := device/infinix/X669C
 TW_NO_FASTBOOT_BOOT := true
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 TARGET_USES_UEFI =: true
 # A/B
