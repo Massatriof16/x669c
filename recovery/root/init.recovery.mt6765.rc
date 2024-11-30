@@ -94,3 +94,4 @@ on boot
     start health-hal-2-1
     start keymaster-4-1
     start gatekeeper-1-0
+   start mobicore
