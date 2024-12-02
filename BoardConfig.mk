@@ -4,7 +4,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+# Platform
+TARGET_BOARD_PLATFORM := mt6765
+PRODUCT_PLATFORM := mt6765
 DEVICE_PATH := device/infinix/X669C
 TW_NO_FASTBOOT_BOOT := true
 # For building with minimal manifest
