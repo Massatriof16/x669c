@@ -1,5 +1,4 @@
 import /tee.rc
-import /trustonic.rc
 
 on init
     setprop sys.usb.configfs 1
