@@ -48,7 +48,6 @@ service keymaster-4-1 /system/bin/android.hardware.keymaster@4.1-service.truston
     user root
     group root drmrpc
     disabled
-    oneshot
     seclabel u:r:recovery:s0
 
 service gatekeeper-1-0 /system/bin/android.hardware.gatekeeper@1.0-service
@@ -94,4 +93,3 @@ on boot
     start health-hal-2-1
     start keymaster-4-1
     start gatekeeper-1-0
-   start mobicore
