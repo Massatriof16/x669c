@@ -126,7 +126,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
     libpuresoftkeymasterdevice \
