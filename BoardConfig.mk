@@ -164,7 +164,7 @@ TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_REPACKTOOLS := true
 
 
-# EXclude feature for more space ramdisk
+# EXclude feature for more space boot ramdisk
 TW_EXCLUDE_MTP := true
 TW_EXLUDE_TZDATA := true
 TW_EXCLUDE_LPDUMP := true
