@@ -149,6 +149,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 ## TWRP-Specific configuration
 TW_THEME := portrait_hdpi
+RECOVERY_SDCARD_ON_DATA := true
 TW_DEVICE_VERSION := Infinix_X669C-Massatrio16
 TARGET_USES_MKE2FS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
@@ -177,6 +178,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_NANO := true
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_PYTHON := true
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
